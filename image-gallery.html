@@ -1,0 +1,110 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+
+<title>D'Destiny Catering | Food Gallery</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="icon" type="image/png" sizes="16x16" href="image/icon/favicon-16x16.png">
+
+<link rel="stylesheet" media="screen" href="css/main-style.css"> 
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#nav-bar").click(function() {
+			$("nav").slideToggle(250);
+		})
+	}) 
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+    	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    	} else {
+        	document.getElementById("myBtn").style.display = "none";
+    			}
+		}
+
+		function topFunction() {
+    	document.body.scrollTop = 0;
+    	document.documentElement.scrollTop = 0; 
+		}
+</script>
+
+</head> <!-- end of head tag -->
+
+<body>
+    <div id="logo">
+        <a href="index.html"><img src="image/d_destiny_logo.png" alt="d'destiny_logo"></a>
+    </div> 
+
+	<div id="nav-bar"> 
+		<img src="image/bar.png" alt="nav-bar"/>
+    </div> <!-- end of nav-bar -->			
+			<nav>	
+				<ul>
+                	<li><a href="catering.html">catering</a></li>
+                	<li><a href="image-gallery.html">food gallery</a></li>     
+                    <li><a href="meal-prep.html">meal prep</a></li>
+                	<li><a href="contact.html">contact</a></li>
+				</ul>
+		    </nav> <!-- end of nav -->
+
+<div id="top-holder">
+      <h1>Food Gallery</h1>
+ </div>
+
+<div id="img-container">
+	<div class="grid">
+
+ 		<div class="box1">
+ 		<img src="image/98.jpg" alt="placehold" class="respon-image">
+		</div>
+
+ 		<div class="box1">
+ 		<img src="image/136.jpg" alt="placehold" class="respon-image">
+		</div>
+
+	 	<div class="box1">
+		<img src="image/132.jpg" alt="placehold" class="respon-image">
+		</div>
+
+ 		<div class="box1">
+		<img src="image/116.jpg" alt="placehold" class="respon-image">
+		</div>
+
+	</div> <!-- end of grid -->
+</div> <!-- end of img-container -->
+
+<!--
+<div class="wrap">      
+    <div id="slider">  
+        <figure>
+        	<img src="image/121.jpg" alt="image discription goes here">
+        	<img src="image/98.jpg" alt="image discription goes here">
+        	<img src="image/172.jpg" alt="image discription goes here">
+        	<img src="image/59.jpg" alt="image discription goes here">
+        	<img src="image/172.jpg" alt="image discription goes here">
+    	</figure>
+	</div> <!- end of slider ->
+</div> <!- end of wrapper div ->
+
+-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Page Up</button>
+
+    <footer>
+		<a href="#logo"><h5>&copy; 2009 D' Destiny Catering</h5></a>
+	</footer>
+	
+
+</body>  
+
+</html>
